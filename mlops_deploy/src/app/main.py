@@ -62,3 +62,4 @@ def cotacao():
     return jsonify(preco=preco[0])
 
 app.run(debug=True, host='0.0.0.0')
+# 34.145.70.37 -- ip vm gcp
